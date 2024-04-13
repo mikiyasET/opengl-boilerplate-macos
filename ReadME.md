@@ -22,12 +22,18 @@ You need to install 2 packages `glfw` and `freeglut`. Follow the steps below to 
 Once you have installed the necessary packages, you can run the program. Follow these steps:
 
 1. Write your code at the main.cpp file
-2. Open your terminal.
-3. Navigate to the directory containing the Makefile.
-4. Type the following command and press Enter: `make`
+2. In the `main.cpp` file, ensure that the paths to `glut.h` and `glfw3.h` are correctly set according to the installed locations. They may vary depending on your system setup.
+3. Open your terminal.
+4. Navigate to the directory containing the Makefile.
+5. Type the following command and press Enter: `make`
 
 
 This command will compile and run the OpenGL program.
+
+
+### Note:
+- The file paths in `main.cpp` might need to be adjusted according to the installed location of `freeglut` and `glfw`. You can find the installation folder when they are installed using Homebrew. The location is typically displayed after running `brew cleanup` or during the installation process.
+
 
 ## Additional Notes
 
